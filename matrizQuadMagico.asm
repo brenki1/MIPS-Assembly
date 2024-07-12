@@ -159,7 +159,7 @@ dgpLoop:
    mflo $t2
    sll $t2, $t2, 2
    la $t3, Matriz
-   add $s0, $t2, $t3 # endereço do elemento [linha * tam + coluna]
+   add $s0, $t2, $t3 # endereÃ§o do elemento [linha * tam + coluna]
    lw $t4, 0($s0) #carrega o elemento do indice atual	
    add $s5, $s5, $t4
    addi $t1, $t1, 1 #incrementa contador
